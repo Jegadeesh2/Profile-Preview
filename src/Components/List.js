@@ -7,7 +7,7 @@ const List = ({lists, deleteUser}) => {
           const {id,name,image,age,netWorth} = list
           return(
       <article key={id} className="list-container">
-        <img className='image' src={image} alt="Person Image"/>
+        <img className='image' src={image} alt="Person"/>
         <div className='description'>
         <h3>{name} {"( "+age+" )"}</h3>
         <h4>Net Worth : {netWorth}</h4>
