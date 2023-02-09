@@ -7,7 +7,7 @@ const App = () => {
   const [list, setList] = useState(data);
   
   const deleteUser = (id) => {
-    let updateUser = list.filter((element) => element.id != id);
+    let updateUser = list.filter((element) => element.id !== id);
     setList(updateUser);
   };
   return (
